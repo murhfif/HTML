@@ -1,0 +1,25 @@
+h1,
+h2,
+h3 {
+    color: brown;
+    font-family: serif;
+}
+
+body{
+    background-color: bisque;
+}
+
+.bg-title{
+    background-color: aqua;
+}
+p{
+    color: cornflowerblue;
+}
+
+input[type="text"]{
+    background-color: yellow;
+}
+
+footer{
+    color: darkgreen;
+}

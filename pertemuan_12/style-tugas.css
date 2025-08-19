@@ -1,0 +1,38 @@
+h1 {
+    color: aliceblue;
+}
+h2{
+    color: red;
+}
+h3 {
+    color: black;
+    font-family: serif;
+}
+
+
+.bg-title{
+    background-color: black;
+}
+p{
+    color: black;
+}
+
+input[type="text"]{
+    background-color: yellow;
+}
+
+footer{
+    color: red;
+}
+
+u{
+    color: green;
+}
+
+i{
+    color: green;
+}
+
+b{
+    color: dimgrey;
+}

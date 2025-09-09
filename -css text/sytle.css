@@ -1,0 +1,46 @@
+h1{
+    color: white;
+}
+p{
+    color: rgb(69, 83, 55);
+    text-align: justify;
+    line-height: 1.5;
+}
+
+p.paragraf {
+    color: rgb(134, 224, 6);
+    font-size: 18px;
+    font-style: italic;
+}
+
+#halaman_home {
+  background: linear-gradient(90deg,rgba(42, 123, 155, 1) 31%, rgba(87, 199, 133, 1) 59%);
+    backdrop-filter: blur(5px);
+}
+
+input[type="text"] {
+    border-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px;
+}
+
+* {
+    border: 1px solid ;
+    border-color: black;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: orangered;
+}
+
+h1::first-letter{
+    font-size: 32px;
+    color: red;
+}
+
+p::first-letter{
+    font-size: 200;
+    color: red
+}

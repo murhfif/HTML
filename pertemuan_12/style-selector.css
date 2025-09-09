@@ -1,25 +1,31 @@
 h1,
 h2,
 h3 {
-    color: brown;
-    font-family: serif;
+  color: brown;
+  font-family: serif;
 }
 
-body{
-    background-color: bisque;
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(240, 45, 253, 1) 100%
+  );
+  background-image: url(./../pertemuan_5/assets/RobloxScreenShot20240706_133754740.png);
+  background-size: 100%;
 }
 
-.bg-title{
-    background-color: aqua;
+.bg-title {
+  background-color: aqua;
 }
-p{
-    color: cornflowerblue;
-}
-
-input[type="text"]{
-    background-color: yellow;
+p {
+  color: black;
 }
 
-footer{
-    color: darkgreen;
+input[type="text"] {
+  background-color: yellow;
+}
+
+footer {
+  color: darkgreen;
 }

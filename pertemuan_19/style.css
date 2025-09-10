@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5f0f9; /* warna dasar (biru muda) */
+  font-family: Verdana,; 
+  color: #000000;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+  color: #0768ca;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 80%;
+  height: auto;
+  border-radius: 20px; /* sisi tumpul */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #470f0f;
+}
+
+p {
+  width: 80%;
+  margin: 10px auto;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.lokasi {
+    text-align: center;
+}
+
+.jam {
+    text-align: center;
+}
+
+.sejarah {
+    color: #dd0c0c;
+}

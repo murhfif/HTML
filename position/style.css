@@ -1,0 +1,8 @@
+.container{
+    background: lightgreen;
+    width: 600px;
+    height: 150px;
+}
+.yellow-box{
+    display: inline-block;
+}

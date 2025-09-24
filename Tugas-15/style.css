@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  width: 250px;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 40%;
+  border-radius: 8px;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+}
+
+.card button {
+  padding: 10px 20px;
+  border: none;
+  background: #0077cc;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.feedback1 {
+  margin-top: 50px;
+  text-align: left;
+  width: 320px;
+}
+
+.strong {
+  color: red;
+}
+.div1{
+    display: flex;
+}
+.feedback2 {
+  margin-top: 50px;
+  text-align: left;
+  width: 320px;
+  margin-left: 50px;
+}

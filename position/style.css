@@ -5,4 +5,8 @@
 }
 .yellow-box{
     display: inline-block;
+    margin: 10px;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
 }

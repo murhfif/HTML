@@ -1,0 +1,42 @@
+/*relative*/
+.inline-block{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    display: inline-block;
+}
+.relative {
+    position: relative;
+    top: 40px;
+}
+.text{
+    width: 500px;
+    margin-top: 50px;
+}
+.fixed{
+    position: fixed;
+    top: 220px;
+    width: 300px;
+    padding: 10px 20px;
+    background-color: greenyellow;
+}
+/*absolute*/
+.small-square{
+    position: absolute;
+    right: 0;
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+}
+.medium-square{
+    height: 200px;
+    width: 300px;
+    background-color: red;
+}
+.big-square{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: deepskyblue;
+}

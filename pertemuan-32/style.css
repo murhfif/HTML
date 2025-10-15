@@ -1,0 +1,22 @@
+.contact-item {
+
+  background-color: whitesmoke;
+  position: fixed;
+  border-radius: 20px;
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-right: 40px;
+}
+.img2 {
+  width: 30px;
+  margin: 30px;
+  float: left;
+}
+.img2:hover{
+     transform: scale(1.1);
+  filter: brightness(1.2);
+}
+body{
+    height: 5000px;
+}

@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 300px;
+  background-color: darkblue;
+  overflow: scroll;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.sidebar .menu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.sidebar .menu a:hover {
+  background-color: #0055ff;
+}
+
+.content {
+  margin-left: 300px;
+  background-color: whitesmoke;
+}

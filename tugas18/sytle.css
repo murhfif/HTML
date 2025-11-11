@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(90deg,rgba(79, 79, 79, 1) 24%, rgba(168, 167, 167, 1) 51%, rgba(79, 79, 79, 1) 74%);
+    font-size: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.card-header {
+  text-align: center;
+  padding: 14px 0;
+}
+
+.card-body {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.card-footer {
+  height: 12px;
+}
+
+.ordered .card-header,
+.ordered .card-footer {
+  background-color: #e74c3c;
+}
+
+.unordered .card-header,
+.unordered .card-footer {
+  background-color: #f5b041;
+}
+
+.description .card-header,
+.description .card-footer {
+  background-color: #3498db;
+}
+
+.card-header h2 {
+  color: white;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+dt {
+  font-weight: bold;
+  color: #e74c3c;
+}
+ ol {
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+
+  }
+
+  dl {
+    margin: 0;
+  }
+
+  dt {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  li {
+    margin: 6px 0;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+.kotak{
+    list-style-type: square;
+}
+.abu-abu{
+    background-color: rgb(235, 227, 227);
+    padding: 8px;
+}
+
+.kuning{
+    background-color: rgb(235, 227, 227);
+    padding: 10px;
+    width: 400px ;
+    padding-left: 20px;
+    list-style-type: circle;
+}
+
+

@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(90deg, #8a3ab9,#e94057,#f27121);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+.kiri {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: white;
+}
+
+.kiri img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.kanan h1{
+  font-size: 50px;
+  font-weight: 700px;
+  padding-left: 50px;
+  padding-top: 0;
+  color: white;
+}
+.kanan h2{
+  font-size: 30px;
+  font-weight: 400px;
+  margin-bottom: 30px;
+  position: absolute;
+  top: 47vh;
+  left: 75vh;
+  color: white;
+}
+
+button.knp{
+  position: absolute;
+  left: 75vh;
+  top: 55vh;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-weight: 600px;
+   transition: 0.3s ease;
+}
+
+button.apa{
+  position: absolute;
+  left: 91vh;
+  top: 55vh;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-weight: 600px;
+   transition: 0.3s ease;
+   background-color: #27ae60;
+}

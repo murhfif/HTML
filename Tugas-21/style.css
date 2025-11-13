@@ -1,0 +1,74 @@
+.semua {
+  display: flex;
+}
+
+.card {
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.card img {
+  width: 500px;
+}
+
+.card h4 {
+  position: absolute;
+  top: 33vh;
+  left: 50vh;
+  font-size: 20px;
+}
+p {
+  color: rgb(155, 154, 154);
+}
+
+.card h3 {
+  font-size: 21px;
+}
+
+.card2 {
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.card2 img {
+  width: 500px;
+}
+
+.card2 h4 {
+  position: absolute;
+  top: 33vh;
+  left: 109vh;
+  font-size: 20px;
+}
+
+.card2 h3 {
+  font-size: 21px;
+}
+.card3 {
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.card3 img {
+  width: 500px;
+}
+
+.card3 h4 {
+  position: absolute;
+  top: 33vh;
+  left: 168vh;
+  font-size: 20px;
+}
+
+.card3 h3 {
+  font-size: 21px;
+}

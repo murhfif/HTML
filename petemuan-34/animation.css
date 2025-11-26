@@ -1,0 +1,44 @@
+.box {
+  width: 110px;
+  height: 110px;
+  background-color: red;
+}
+.box:hover {
+  transform: rotate(45deg);
+}
+.kotak {
+  width: 110px;
+  height: 110px;
+  background-color: blue;
+  margin-top: 10px;
+}
+.kotak:hover {
+  transform: scale(1.3);
+}
+.kubus {
+  width: 110px;
+  height: 110px;
+  background-color: green;
+  margin-top: 10px;
+}
+.kubus:hover {
+  transform: translateX(50px);
+}
+.skew {
+  width: 110px;
+  height: 110px;
+  background-color: gray;
+  margin-top: 10px;
+}
+.skew:hover {
+  transform: skewX(20deg);
+}
+.mix {
+  width: 110px;
+  height: 110px;
+  background-color: yellow;
+  margin-top: 10px;
+}
+.mix:hover{
+    transform: rotate(30deg) scale(1.3) translateY(-15px);
+}

@@ -1,5 +1,6 @@
 .semua {
   display: flex;
+  justify-content: center;
 }
 
 .card {
@@ -71,4 +72,14 @@ p {
 
 .card3 h3 {
   font-size: 21px;
+}
+@media screen and (max-width: 800px) {
+  .semua{
+    flex-direction: column;
+  }
+  .card{
+    margin: 0 auto;
+    max-width: 350px;
+  }
+  
 }
